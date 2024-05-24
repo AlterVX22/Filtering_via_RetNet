@@ -2,9 +2,9 @@
 
 ## Implementation of collaborative filtering using the RetNet neural network.
 
-**Architecture paper:** [RetNet: Neural Collaborative Filtering via Retention Network](https://arxiv.org/abs/2307.08621)
+**Architecture paper:** [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621)
 
-**RetNet repository:** [Microsoft Unilm - RetNet](https://github.com/microsoft/unilm/tree/master/retnet)
+**RetNet repository:** [TorchScale - A Library of Foundation Architectures](https://github.com/microsoft/torchscale)
 
 Contains 2 classes:
 1. DatasetBatchIterator() - processes data to form batches.
