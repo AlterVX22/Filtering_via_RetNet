@@ -9,6 +9,7 @@
 Contains 2 classes:
 1. **DatasetBatchIterator()** - processes data to form batches.
    Used in:
+
    Video: [YouTube](https://www.youtube.com/watch?v=dN8U0GNKCcc)
 
    Slides: [Google Drive](https://drive.google.com/file/d/19oaf9RaS9QqNLgyxvYTqgHoiRTIcMFf4/view)
