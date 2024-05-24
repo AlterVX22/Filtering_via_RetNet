@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import numpy as np
 import math
-from torchscale.architecture.retnet import RetNetDecoder
 
 class DatasetBatchIterator:
 
