@@ -41,12 +41,12 @@ class DatasetBatchIterator:
 
 class NeuralColabFilteringRetNet(nn.Module):
 
-    def __init__(self, user_count, movie_count, retnet_config, hidden_size, device=None):
+    def __init__(self, user_count, movie_count, retnet_model, hidden_size, device=None):
         super().__init__()
 
         self.user_count = user_count
         self.movie_count = movie_count
-        self.retnet_model = RetNetDecoder(retnet_config)
+        self.retnet_model = retnet_model
         self.linear = nn.Linear(hidden_size, 1)
         self.hidden_size = hidden_size
         self.device = device if device is not None else torch.device("cuda" if torch.cuda.is_available() else "cpu")
